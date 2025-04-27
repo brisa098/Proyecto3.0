@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  background-color: #f4f4f4;
+  font-family: "Comic Relief", system-ui;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.form-section {
+    background-color: #f3f3f3;
+    padding: 30px 40px;
+   
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background-color: rgb(171, 143, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgb(143, 108, 162);
+}
+
+.centro{
+
+   padding: 20px;
+    text-align: center;
+}

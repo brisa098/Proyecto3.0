@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  background-color: #f4f4f4;
+  font-family: "Comic Relief", system-ui;
+
+}
+
+
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+:root{
+    --color-primario: rgb(171, 143, 183) ;
+    --color-secundario:#f4f4f4 ;
+    --acento: #9000ff;        
+}
+.titulo{
+    font-size: 2em;
+    color: var (color-secundario);
+}
+#contenedor{
+width: 100%;
+max-width: 400px;
+}
+
+
+
+.titulo{
+    font-size: 2em;
+    color: var(color-secundario);
+}
+
+.Letra1{
+
+    text-align: center;
+    padding: 5%;
+}
+
+.Letra2{
+ 
+    text-align: center;
+    padding: 2%;
+}
+
+.p{
+padding: 2%;
+
+}
+
+
+.contenido{
+
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+    .titulo {
+        font-size: 1.5em; 
+    }
+
+    #contenedor {
+        max-width: 90%; 
+    }
+
+    .contenido {
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    .titulo {
+        font-size: 1.2em; 
+    }
+
+    .contenido {
+        width: 100%; 
+        padding: 10px; 
+}
+}

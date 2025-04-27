@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 20px;
+    background-color: rgb(171, 143, 183); ;
+}
+
+.iconos-sociales {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.iconos-sociales span {
+    color:rgb(244, 244, 244);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.iconos-sociales span:hover {
+    transform: scale(1.2);
+    color:#9000ff;
+}
