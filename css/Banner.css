@@ -9,4 +9,21 @@
     width: 100%;
     height: 600px;
 position: relative;
+} 
+
+
+@media (max-width: 768px) {
+    .banner,
+    .banner1 {
+        height: 400px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .banner,
+    .banner1 {
+        height: 250px;
+    }
 }
