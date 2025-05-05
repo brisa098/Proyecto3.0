@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     document.getElementById("nav").innerHTML = `
         <nav class="menu">
+            
             <div class="logo">
                 <img src="imagenes/logo.png" alt="Logo" width="90">
             </div>
